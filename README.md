@@ -23,11 +23,15 @@ This project analyzes revenue, customers, and product performance using advanced
 
 sql-business-performance-analysis/
 │
-├── sql/
-│   └── analysis.sql
+├── scripts/
+│   └── customer_report.sql
+│   │── product_report.sql
+│   └── EDA and Analysis.sql   
 │
-├── docs/
-│   └── insights.md
+├── datas/
+│   └── dim_customers.csv
+│   │── dim_products.csv
+│   └── fact_sales.sql
 │
 ├── docs/
 │   └── insights.md
